@@ -5,14 +5,14 @@ This project is a custom SQL-like database that includes a variety of fundamenta
 
 ## File Structure
 
-- **B+ Tree/**: Implementation of B+ Tree for indexing.
-- **Linked_list_functions/**: Functions for managing linked lists.
-- **parser/**: SQL parser for parsing query commands.
-- **queue/**: Queue implementation used in query processing.
-- **shuntingyard/**: Shunting Yard algorithm for converting SQL queries into a format that can be executed by the database engine.
-- **sql/**: Core logic for SQL-like query execution.
-- **table/**: Table data structure to manage rows and columns of the database.
-- **tokenizer/**: Tokenizer to break down SQL queries into tokens for easier processing.
+- **B+ Tree**: Implementation of B+ Tree for indexing.
+- **Doubly Linked Lists**: Functions for managing linked lists.
+- **Parser**: SQL parser for parsing query commands.
+- **Queue**: Queue implementation used in query processing.
+- **Shunting Yard**: Shunting Yard algorithm for converting SQL queries into a format that can be executed by the database engine.
+- **SQL/**: Core logic for SQL-like query execution.
+- **Table/**: Table data structure to manage rows and columns of the database.
+- **Tokenizer/**: Tokenizer to break down SQL queries into tokens for easier processing.
 
 ### Binary Files Overview
 - **student.bin, student1.bin, ..., student5.bin**: Binary files storing serialized student data.
