@@ -10,13 +10,13 @@ This project is a custom SQL-like database that includes a variety of fundamenta
 - **Parser**: SQL parser for parsing query commands.
 - **Queue**: Queue implementation used in query processing.
 - **Shunting Yard**: Shunting Yard algorithm for converting SQL queries into a format that can be executed by the database engine.
-- **SQL/**: Core logic for SQL-like query execution.
-- **Table/**: Table data structure to manage rows and columns of the database.
-- **Tokenizer/**: Tokenizer to break down SQL queries into tokens for easier processing.
+- **SQL**: Core logic for SQL-like query execution.
+- **Table**: Table data structure to manage rows and columns of the database.
+- **Tokenizer**: Tokenizer to break down SQL queries into tokens for easier processing.
 
 ### Binary Files Overview
-- **student.bin, student1.bin, ..., student5.bin**: Binary files storing serialized student data.
-- **student.txt, student1.txt, ..., student5.txt**: Text files storing human-readable student data.
+- **student.bin, student1.bin, ...**: Binary files storing serialized student data.
+- **student.txt, student1.txt, ...**: Text files storing human-readable student data.
 
 
 ## Installation
@@ -26,8 +26,8 @@ This project is a custom SQL-like database that includes a variety of fundamenta
    git clone https://github.com/yourusername/sql-project.git
 
 ## Usage
-1. Load the database files using the custom file parser.
-2. Use the SQL-like query interface to perform operations such as `SELECT`, `INSERT`, `INTO`, and `FROM` on the tables.
+1. Console-based interactive sql interface where user can enter simple SQL command lines in an acceptable format.
+2. Use the SQL-like query interface to perform operations such as `make table`,`select`, `insert into`, `from`, `where` on the tables.
 3. The database supports simple queries with logical and relational operations.
 4. Data can be exported back into text or binary format.
 
